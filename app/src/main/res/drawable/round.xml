@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape>
+    <padding>10</padding>
+    <corners>20</corners>
+    <solid>#000</solid>
+</shape>

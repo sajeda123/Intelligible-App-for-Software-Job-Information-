@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="16dp"
+    android:orientation="vertical"
+    tools:context=".Details">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/showImage"
+                android:layout_gravity="center"
+
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:id="@+id/show_firm_name"
+                style="@style/details_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="firm name" />
+
+            <TextView
+                android:id="@+id/show_firm_size"
+                style="@style/details_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="firm size" />
+
+            <TextView
+                android:id="@+id/show_requirement"
+                style="@style/details_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="requirement" />
+
+            <TextView
+                android:id="@+id/show_starting_salary"
+
+                style="@style/details_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Starting salary" />
+
+            <TextView
+                android:id="@+id/show_exam_language"
+
+                style="@style/details_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Language" />
+
+            <TextView
+                android:id="@+id/show_hiring_procedure"
+
+                style="@style/details_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hiring procedure" />
+
+            <TextView
+                android:id="@+id/show_website"
+
+                style="@style/details_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="website link" />
+
+            <TextView
+                android:id="@+id/show_location"
+
+                style="@style/details_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location" />
+
+            <TextView
+                android:id="@+id/show_comments"
+
+                style="@style/details_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comments" />
+
+
+            <EditText
+                android:id="@+id/comment_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:hint="Write a comment..." />
+
+            <Button
+                android:id="@+id/save_commnet_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="16dp"
+                android:text="Save" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/comment_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

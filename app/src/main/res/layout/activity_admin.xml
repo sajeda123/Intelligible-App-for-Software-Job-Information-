@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/firm_name"
+
+            style="@style/details_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Firm name..." />
+
+
+        <EditText
+            android:id="@+id/firm_size"
+
+            style="@style/details_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Size..." />
+
+        <EditText
+            android:id="@+id/firm_requirement"
+
+            style="@style/details_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Requirement..." />
+
+        <EditText
+            android:id="@+id/firm_website"
+
+            style="@style/details_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Website link..." />
+
+        <EditText
+            android:id="@+id/firm_salary"
+
+            style="@style/details_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Starting salary..." />
+
+        <EditText
+            android:id="@+id/firm_language"
+
+            style="@style/details_activity"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contest or interview language..." />
+
+
+        <EditText
+            android:id="@+id/firm_hiring_procedure"
+
+            style="@style/details_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hiring Procedure..." />
+
+
+        <EditText
+            android:id="@+id/firm_location"
+
+            style="@style/details_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address..." />
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/firm_image"
+            android:src="@drawable/splash"
+            android:layout_width="300dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="250dp" />
+        <Button
+
+            android:id="@+id/submit_btn"
+            style="@style/submit"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+    </LinearLayout>
+</ScrollView>

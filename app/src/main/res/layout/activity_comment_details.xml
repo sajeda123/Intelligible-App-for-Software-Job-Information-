@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommentDetails">
+    <EditText
+
+        android:id="@+id/edit_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/commet_btn_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Update"
+            android:id="@+id/save_edit_comment"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textSize="12sp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Delete"
+            android:id="@+id/delete_comment"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textSize="12sp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
